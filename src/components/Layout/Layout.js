@@ -25,6 +25,7 @@ import Charts from "../../pages/charts";
 
 // context
 import { useLayoutState } from "../../context/LayoutContext";
+import AugmentedReality from "../../pages/augmentedreality/AugmetedReality";
 
 function Layout(props) {
   var classes = useStyles();
@@ -46,6 +47,7 @@ function Layout(props) {
             <Switch>
               <Route path="/app/dashboard" component={Dashboard} />
               <Route path="/app/typography" component={Typography} />
+              <Route path="/app/augmentedreality" component={AugmentedReality} />
               <Route path="/app/tables" component={Tables} />
               <Route path="/app/notifications" component={Notifications} />
               <Route
