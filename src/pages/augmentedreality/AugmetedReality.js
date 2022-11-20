@@ -14,7 +14,7 @@ export default function AugmentedReality() {
 
   return (
     <>
-      <PageTitle title="Augmented Reality" />
+      <PageTitle title="Augmented Reality Chamod App" />
       <Grid container spacing={4}>
         <Grid item xs={12} md={6}>
           <Widget title="Headings" disableWidgetMenu>
